@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+body {
+  max-width: 50%;
+  margin: auto;
+  font-family: "Cedarville Cursive", cursive;
+  background-image: url("old\ book.jpg");
+  text-align: justify;
+}
+
+img {
+  width: 30%;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-collapse: separate;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 200%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  letter-spacing: 0.15em;
+  word-spacing: 0.15em;
+}
+
+h2 {
+  font-size: 175%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: 150%;
+}
+
+h4 {
+  font-size: 125%;
+}
+
+h5 {
+  font-size: 100%;
+}
+
+hr {
+  width: 75%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.chapter {
+  page-break-before: always;
+  margin-top: 3em;
+}
+
+p,
+span {
+  margin-top: 0.15em;
+  margin-bottom: o.15em;
+  text-indent: 1em;
+  font-weight: 600;
+  font-size: 1.2em;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+p.poem {
+  text-indent: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p.noindent {
+  text-indent: 0em;
+}
+
+.fig {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p.right {
+  text-align: right;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.no-break {
+  page-break-before: avoid;
+}
+
+p.letter {
+  text-indent: 0%;
+  margin-top: 1.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.pgheader {
+  font-weight: 600;
+}
+
+/* table {
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+.p2 {
+  margin-top: 2em;
+}
