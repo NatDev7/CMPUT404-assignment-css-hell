@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background-color: blanchedalmond;
+}
+
+.mainContainer {
+  margin: auto;
+  background-color: rgb(229, 199, 157);
+  width: 75rem;
+  display: flex;
+  flex-direction: row;
+  border: 3.5px solid rgb(0, 0, 0);
+  padding: 2.5rem;
+}
+
+.mainBodyContainer {
+  width: 70%;
+}
+
+.canDoContainer h3 {
+  color: #000000;
+}
+
+.canDoContainer p,
+li {
+  color: #000000;
+}
+
+.seperate {
+  display: flex;
+}
+
+.profilePic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

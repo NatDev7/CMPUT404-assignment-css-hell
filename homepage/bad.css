@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background-image: url("background.jpg");
+  color: #00f7ff;
+}
+
+.mainContainer {
+  margin: auto;
+  background-image: url("background.jpg");
+  width: 75rem;
+  display: flex;
+  flex-direction: row;
+  border: 3.5px solid rgb(255, 255, 255);
+  padding: 2.5rem;
+}
+
+.mainBodyContainer {
+  width: 70%;
+}
+
+.canDoContainer h3 {
+  color: #9900ff;
+}
+
+.canDoContainer p,
+li {
+  color: #e5ff00;
+}
+
+.seperate {
+  display: flex;
+}
+
+.profilePic {
+  width: 150px;
+  height: 110px;
+  border-radius: 69%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* .bio {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+} */
