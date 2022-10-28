@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background-color: blanchedalmond;
+}
+
+.mainContainer {
+  margin: auto;
+  background-image: linear-gradient(rgb(247, 219, 177), rgb(223, 217, 217));
+  width: 75rem;
+  display: flex;
+  flex-direction: row;
+  border: 3.5px solid rgb(0, 0, 0);
+  padding: 2.5rem;
+}
+
+.mainBodyContainer {
+  width: 70%;
+}
+p {
+  color: #666161;
+}
+
+.canDoContainer h3 {
+  color: #000000;
+}
+
+.canDoContainer p,
+li {
+  color: #666161;
+}
+
+.seperate {
+  display: flex;
+}
+
+.profilePic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
