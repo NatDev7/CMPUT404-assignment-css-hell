@@ -7,7 +7,7 @@ body {
 .mainContainer {
   margin: auto;
   background-image: url("background.jpg");
-  width: 75rem;
+  width: 73rem;
   display: flex;
   flex-direction: row;
   border: 3.4px solid rgb(255, 255, 255);
